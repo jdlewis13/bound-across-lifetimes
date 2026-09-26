@@ -3,12 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Bound Across Lifetimes</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #071c1b;
+        }
+
+        .site-header {
+            position: relative;
+            min-height: 260px;
+            background-image: url("The%20lightbringer%E2%80%99s%20Rose.png");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .site-logo {
+            width: 70px;
+            height: 70px;
+            object-fit: contain;
+        }
+
+        .menu-button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 36px;
+            cursor: pointer;
+            line-height: 1;
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>Bound Across Lifetimes</h1>
-    <p>Where stories remember what time forgets.</p>
+    <header class="site-header">
+
+        <img
+            src="Transparent.png"
+            alt="Bound Across Lifetimes"
+            class="site-logo"
+        >
+
+        <button class="menu-button" aria-label="Open navigation">
+            ☰
+        </button>
+
+    </header>
 
 </body>
 </html>
